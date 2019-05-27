@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+    <name>rede</name>
+    <displayName><![CDATA[e.Rede]]></displayName>
+    <version><![CDATA[1.0]]></version>
+    <description><![CDATA[M&oacute;dulo de pagamento e.Rede]]></description>
+    <author><![CDATA[João Batista Neto]]></author>
+    <tab><![CDATA[payments_gateways]]></tab>
+    <confirmUninstall>Quer mesmo desinstalar?</confirmUninstall>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+    <limited_countries/>
+</module>

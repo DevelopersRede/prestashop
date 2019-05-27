@@ -1,0 +1,100 @@
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    margin: 0;
+}
+
+.rede input.validation-error {
+    border-color: #ff0000;
+    background: rgba(250, 160, 160, 0.1);
+}
+
+.rede span.validation-error {
+    display: block;
+    color: #ff0000;
+    margin-top: 5px;
+}
+
+.rede {
+    text-align: left;
+    background: #FFF;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+}
+
+.rede legend {
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    color: #666;
+    width: 100%;
+    margin-bottom: 20px
+}
+
+.rede legend {
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.rede label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.rede input,
+.rede select {
+    border-radius: 5px;
+    background: #FAFAFA;
+    color: #000;
+    border: 1px solid #CCC;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.rede button {
+    margin: 5px 0;
+    background-clip: padding-box;
+    border-width: 1px;
+    border-radius: 6px;
+    border-style: solid;
+    color: white;
+    display: block;
+    padding: 12px 15px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #63bb4a;
+    background-image: linear-gradient(top, #83c96f 0%, #63bb4a 50%, #4e9939 100%);
+    border-color: #3b742b;
+    border-left-color: #63bb4a;
+    border-top-color: #63bb4a;
+    box-shadow: rgba(233, 233, 233, 0.5) 1px 1px 0 0 inset;
+    text-shadow: #458632 0 1px 2px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer
+}
+
+.rede button.disabled {
+    cursor: default;
+    opacity: 0.6;
+}
+
+.rede ul li {
+    margin: 15px auto;
+    width: 400px;
+    list-style: none;
+}
+
+.rede #card_cvv {
+    width: 50px;
+}
+
+.rede #card_number,
+.rede #holder_name,
+.rede #card_installments {
+    width: 400px;
+}

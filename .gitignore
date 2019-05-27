@@ -1,0 +1,5 @@
+.idea
+vendor
+mysql
+composer.lock
+prestashop.zip

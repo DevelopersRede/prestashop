@@ -1,0 +1,33 @@
+version: '3'
+services:
+  mysql:
+    image: mysql:5.6
+    container_name: "mysql.prestashop"
+    environment:
+    - MYSQL_ROOT_PASSWORD=prestashop
+    - MYSQL_DATABASE=prestashop
+    - MYSQL_USER=prestashop
+    - MYSQL_PASSWORD=prestashop
+    networks:
+    - userede
+    volumes:
+    - ./mysql:/var/lib/mysql:z
+    ports:
+      - "3306:3306"
+
+  php:
+    image: prestashopt:1.5
+    build: .
+    container_name: "local.prestashop"
+    ports:
+    - "80:80"
+    links:
+    - mysql
+    networks:
+    - userede
+    volumes:
+    - ./modules/rede:/var/www/html/modules/rede:z
+
+networks:
+  userede:
+    driver: bridge

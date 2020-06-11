@@ -1,3 +1,9 @@
+# Importante
+
+Utilize sempre a última release para a instalação da versão mais recente do módulo
+
+https://github.com/DevelopersRede/prestashop/releases
+
 # Módulo Prestashop
 
 Esse é o módulo da plataforma Prestashop.

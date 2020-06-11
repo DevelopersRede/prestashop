@@ -1,8 +1,6 @@
 # Importante
 
-Utilize sempre a última release para a instalação da versão mais recente do módulo
-
-https://github.com/DevelopersRede/prestashop/releases
+Também é possível fazer o download da [última release](https://github.com/DevelopersRede/prestashop/releases/latest/download/prestashop.zip). Essa versão já contém as dependênias, então basta descompactar o pacote e enviá-lo para o servidor da plataforma.
 
 # Módulo Prestashop
 
@@ -16,4 +14,4 @@ Esse módulo utiliza o SDK PHP como dependência. Por isso é importante que, as
 composer install
 ```
 
-Também é possível fazer o download da [última release](https://github.com/DevelopersRede/prestashop/releases/latest/download/prestashop.zip). Essa versão já contém as dependênias, então basta descompactar o pacote e enviá-lo para o servidor da plataforma.
+

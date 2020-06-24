@@ -4,7 +4,7 @@ Também é possível fazer o download da [última release](https://github.com/De
 
 # Módulo Prestashop
 
-Esse é o módulo da plataforma Prestashop.
+Esse módulo foi desenvolvido com suporte ao Prestashop 1.6
 
 ## Instalação
 

@@ -1,4 +1,4 @@
-FROM php:7-apache
+FROM php:7.3-apache
 
 ENV COMPOSER_HOME=/var/www/composer
 
@@ -25,9 +25,11 @@ RUN usermod -u 1000 www-data
 RUN groupmod -g 1000 www-data
 
 USER 1000
-RUN wget https://github.com/PrestaShop/PrestaShop/releases/download/1.6.1.23/prestashop_1.6.1.23.zip -P /var/www/
-RUN unzip /var/www/prestashop_1.6.1.23.zip -d /var/www/prestashop
-RUN cp -R /var/www/prestashop/prestashop/* /var/www/html
+RUN wget https://github.com/PrestaShop/PrestaShop/releases/download/1.7.6.9/prestashop_1.7.6.9.zip -P /var/www/
+RUN unzip /var/www/prestashop_1.7.6.9.zip -d /var/www/prestashop/
+RUN cp /var/www/prestashop/index.php /var/www/html
+RUN cp /var/www/prestashop/prestashop.zip /var/www/html
+RUN mkdir /var/www/html/modules
 RUN rm -rf /var/www/prestashop
 RUN rm /var/www/*.zip
 

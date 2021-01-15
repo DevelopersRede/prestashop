@@ -89,12 +89,15 @@ input[type=number]::-webkit-outer-spin-button {
     list-style: none;
 }
 
-.rede #card_cvv {
+.rede #debitcard_cvv,
+.rede #creditcard_cvv {
     width: 50px;
 }
 
-.rede #card_number,
-.rede #holder_name,
+.rede #debitcard_number,
+.rede #creditcard_number,
+.rede #debitcard_holder_name,
+.rede #debitcard_holder_name,
 .rede #card_installments {
     width: 400px;
 }

@@ -1,7 +1,7 @@
 (function ($) {
     $(document).ready(
         function () {
-            $.validator.addMethod("holdername", function(value, element) {
+            $.validator.addMethod("holdername", function (value, element) {
                 return this.optional(element) || /^[a-zA-Z\s]*$/.test(value);
             });
 
@@ -74,4 +74,5 @@
                 });
             });
         });
+
 })(jQuery);

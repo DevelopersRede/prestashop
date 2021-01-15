@@ -3,3 +3,4 @@ vendor
 mysql
 composer.lock
 prestashop.zip
+prestashop/

@@ -16,7 +16,7 @@ services:
       - "3306:3306"
 
   php:
-    image: prestashopt:1.5
+    image: prestashop:1.7
     build: .
     container_name: "local.prestashop"
     ports:
